@@ -60,6 +60,6 @@ match user_input2:
         for i in range(max_star):
             for j in range(max_star):
                 print(' ', end='')
-            for j in range(max_star+i):
+            for j in range(i+2):
                 print('*', end='')
             print()
