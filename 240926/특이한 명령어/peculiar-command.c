@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <math.h>
+
 
 int main() {
     // n개의 명령어가 주어집니다. 
@@ -27,9 +29,9 @@ int main() {
     }
 
     for(int index=0; index < n; index++){
-        if(result[index] == (int)result[index] && result[index]){
+        if(c[index]=='s' && result[index]){
             printf("%d\n", (int)result[index]);
-        } else if(result[index] == (float)result[index] && result[index]){
+        } else if(c[index]=='t' && result[index]){
             printf("%.1lf\n", result[index]);
         }
     }
