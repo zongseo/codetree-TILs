@@ -18,7 +18,7 @@ int main() {
     scanf("%c", &s);
 
     if(s == 'S'){
-        printf("Supeior");
+        printf("Superior");
     } else if(s == 'A'){
         printf("Excellent");
     } else if(s == 'B'){
