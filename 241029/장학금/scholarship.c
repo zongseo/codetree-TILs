@@ -13,6 +13,8 @@ int main() {
             printf("%d", 100000);
         }else if(fin >= 90){
             printf("%d", 50000);
+        } else {
+            printf("%d", 0);
         }
     } else {
         printf("%d", 0);
