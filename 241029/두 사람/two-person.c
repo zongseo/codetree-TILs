@@ -6,14 +6,10 @@ int main() {
     int age_a, age_b;
     char sex_a, sex_b;
     scanf("%d %c %d %c", &age_a, &sex_a, &age_b, &sex_b);
-    if(sex_a == 'M'){
-        if(age_a >=19){
-            printf("1");
-        }
-    }else if(sex_b == 'M'){
-        if(age_b >= 19){
-            printf("1");
-        }
+    if(sex_a == 'M' && age_a >= 19){
+        printf("1");
+    }else if(sex_b == 'M' && age_b >= 19){
+        printf("1");
     }else {
         printf("0");
     }
